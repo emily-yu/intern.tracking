@@ -1,12 +1,15 @@
 {
     "manifest_version":         2,
     "content_scripts":          [ {
-        "js":       [ "page-injector.js" ],
+        "js":       [ "page-injector.js", "log.js" ],
         "matches":  [   "http://www.intern.supply/"
         ]
     } ],
     "description":              "tracking status of applications for intern.supply",
     "name":                     "Intern.Tracking",
     "version":                  "1.0",
-    "web_accessible_resources": ["style.css"]
+    "web_accessible_resources": ["style.css"],
+    "background": {
+        "scripts": ["log.js"]
+    }
 }
