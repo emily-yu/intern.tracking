@@ -5,7 +5,7 @@ A chrome extension to that injects elements into the [intern.supply](http://www.
 
 ### Installation
 
-**Method 1:** Install from Chrome Webstore
+**Method 1:** Install from [Chrome Webstore](https://chrome.google.com/webstore/detail/interntracking/cdcnhchkffhfdmcmpnffbfladahokkfj?hl=en)
 
 **Method 2:** Install from Developer Mode
 
